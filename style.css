@@ -1,0 +1,35 @@
+:root {
+    --primary-color: #4CAF50; 
+    --secondary-color: #8BC34A; 
+    --bg-color: #F5F5F5; 
+    --font: 'Arial', sans-serif;
+}
+
+body {
+    font-family: var(--font);
+    background-color: var(--bg-color);
+    background-image: url('https://s2-vidadebicho.glbimg.com/mNI9ToukK5NC5d3pbwch4YRsNhM=/0x0:1079x720/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_fb623579cd474803aedbbbbae014af68/internal_photos/bs/2022/0/I/V9X24JTxAGhmgell4bTg/2022-05-13-1-morcegos-imitam-o-zumbido-de-vespas-para-assustar-predadores.jpeg');
+    background-size: cover;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.graficos-container__texto {
+    font-size: 18px;
+    margin: 20px;
+}
+
+.grafico {
+    margin: 20px;
+}
